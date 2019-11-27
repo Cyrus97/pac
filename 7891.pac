@@ -1,8 +1,8 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * Generated: 2019-11-27 16:12:11
+ * Generated: 2019-11-27 16:25:52
  * GFWList Last-Modified: 2019-11-04 16:21:47
- * GFWList From: local[/home/runner/work/pac/pac/gfwlist/gfwlist.txt]
+ * GFWList From: online[https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt]
  */
 
 var proxy = 'SOCKS5 127.0.0.1:7891';
