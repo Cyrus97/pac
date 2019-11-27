@@ -1,15 +1,17 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * Generated: 2019-11-27 15:32:21
+ * Generated: 2019-11-27 15:50:27
  * GFWList Last-Modified: 2019-11-04 16:21:47
- * GFWList From: online[https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt]
+ * GFWList From: local[/home/runner/work/pac/pac/gfwlist/gfwlist.txt]
  */
 
 var proxy = 'SOCKS5 127.0.0.1:7891';
 var rules = [
     [
         [],
-        []
+        [
+            "renzhe.cloud"
+        ]
     ],
     [
         [
