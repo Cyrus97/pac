@@ -19,14 +19,9 @@ jobs:
           genpac -v
       - name: generate pac file
         run: bash $GITHUB_WORKSPACE/generator.sh
-      - name: git check
-        id: git-check
-        run: echo "::set-output name=modified::$(if git diff-index --quiet HEAD --; then echo "false"; else echo "true"; fi)"
       - name: git push
-        run: |
-          git config --global user.name 'Cyrus97'
-          git config --global user.email 'liuxingran97@qq.com'
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git add .
-          git commit -am "Automated changes"
-          git push
+        uses: github-actions-x/commit@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          push-branch: master
+          commit-message: 'Auto push'
