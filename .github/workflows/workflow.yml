@@ -27,5 +27,6 @@ jobs:
           git config --global user.name 'Cyrus97'
           git config --global user.email 'liuxingran97@qq.com'
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git add .
           git commit -am "Automated changes"
           git push
