@@ -1,0 +1,32 @@
+name: Auto generate pac file
+
+on: 
+  push:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-python@master
+        with:
+          python-version: '3.6'
+      - name: Install genpac
+        run: |
+          pip install genpac
+          genpac -v
+      - name: generate pac file
+        run: bash $GITHUB_WORKSPACE/generator.sh
+      - name: git check
+        id: git-check
+        run: echo ::set-output name=modified::$(if git diff-index --quiet HEAD --; then echo "false"; else echo "true"; fi)
+      - name: git push
+        if: steps.git-check.outputs.modified == 'true'
+        run: |
+          git config --global user.name 'Cyrus97'
+          git config --global user.email 'liuxingran97@qq.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git commit -am "Automated changes"
+          git push
