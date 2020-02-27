@@ -27,4 +27,3 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           push-branch: master
           commit-message: 'Auto push'
-          rebase: 'true'
