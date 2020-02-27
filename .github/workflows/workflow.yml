@@ -22,7 +22,7 @@ jobs:
       - name: Generate pac file
         run: bash generator.sh
       - name: Git push
-        uses: github-actions-x/commit@v2.4
+        uses: github-actions-x/commit@v2.3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           push-branch: master
