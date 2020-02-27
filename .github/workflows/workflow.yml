@@ -27,4 +27,5 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           push-branch: 'master'
           commit-message: 'Auto push'
+          force-add: 'true'
           email: liuxingran97@qq.com
