@@ -21,7 +21,6 @@ jobs:
         run: |
           pip install genpac
           genpac -v
-      - uses: actions/checkout@v2
       - run: |
           bash generator.sh
           ls
