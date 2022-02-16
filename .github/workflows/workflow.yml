@@ -20,7 +20,7 @@ jobs:
         with:
           submodules: true
       - name: Generate pac and push
-      - run: |
+        run: |
           git submodule update --remote
           bash generator.sh
           ls
