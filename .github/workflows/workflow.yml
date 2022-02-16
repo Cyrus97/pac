@@ -12,6 +12,8 @@ jobs:
       - uses: actions/checkout@v1
         with:
           submodules: true
+      - run: |
+          git submodule update --remote
       - uses: actions/setup-python@master
         with:
           python-version: '3.6'
@@ -21,11 +23,10 @@ jobs:
           genpac -v
       - name: Generate pac file
         run: bash generator.sh
-      - name: Git push
-        uses: github-actions-x/commit@master
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          push-branch: 'master'
-          commit-message: 'Auto push'
-          force-add: 'true'
-          email: liuxingran97@qq.com
+
+      - run: |
+          git config user.name Cyrus97
+          git config user.email liuxingran97@qq.com
+          git add .
+          git commit -m "generated"
+          git push
