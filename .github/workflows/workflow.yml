@@ -21,10 +21,12 @@ jobs:
         run: |
           pip install genpac
           genpac -v
+          ls
       - name: Generate pac file
         run: bash generator.sh
       - uses: actions/checkout@v2
       - run: |
+          ls
           git config user.name Cyrus97
           git config user.email liuxingran97@qq.com
           git add .
