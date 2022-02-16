@@ -9,11 +9,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-        with:
-          submodules: true
-      - run: |
-          git submodule update --remote
       - uses: actions/setup-python@master
         with:
           python-version: '3.6'
@@ -21,7 +16,12 @@ jobs:
         run: |
           pip install genpac
           genpac -v
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: Generate pac and push
       - run: |
+          git submodule update --remote
           bash generator.sh
           ls
           git config user.name Cyrus97
