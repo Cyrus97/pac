@@ -21,13 +21,9 @@ jobs:
         run: |
           pip install genpac
           genpac -v
-          ls
-      - name: Generate pac file
-        run: |
-          bash generator.sh
-          ls
       - uses: actions/checkout@v2
       - run: |
+          bash generator.sh
           ls
           git config user.name Cyrus97
           git config user.email liuxingran97@qq.com
