@@ -1,7 +1,7 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * Generated: 2022-02-27 01:16:45
- * GFWList Last-Modified: 2022-02-23 18:03:12
+ * Generated: 2022-03-06 01:17:09
+ * GFWList Last-Modified: 2022-03-01 16:56:35
  * GFWList From: online[https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt]
  */
 
@@ -3743,6 +3743,7 @@ var rules = [
             "okayfreedom.com",
             "okex.com",
             "okk.tw",
+            "okx.com",
             "olabloga.pl",
             "old-cat.net",
             "olevod.com",
