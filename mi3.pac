@@ -1,7 +1,7 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * Generated: 2022-03-06 01:17:09
- * GFWList Last-Modified: 2022-03-01 16:56:35
+ * Generated: 2022-03-13 01:16:24
+ * GFWList Last-Modified: 2022-03-12 03:16:06
  * GFWList From: online[https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt]
  */
 
@@ -778,6 +778,7 @@ var rules = [
             "bybit.com",
             "bynet.co.il",
             "bypasscensorship.org",
+            "byrut.org",
             "c-est-simple.com",
             "c-span.org",
             "c-spanvideo.org",
@@ -2515,6 +2516,7 @@ var rules = [
             "hkvwet.com",
             "hkwcc.org.hk",
             "hkzone.org",
+            "hmoegirl.com",
             "hmonghot.com",
             "hmv.co.jp",
             "hmvdigital.ca",
@@ -2809,6 +2811,7 @@ var rules = [
             "ixquick.com",
             "ixxx.com",
             "iyouport.com",
+            "iyouport.org",
             "izaobao.us",
             "izihost.org",
             "izles.net",
@@ -3838,6 +3841,7 @@ var rules = [
             "padmanet.com",
             "page.tl",
             "page2rss.com",
+            "pages.dev",
             "pagodabox.com",
             "palacemoon.com",
             "paldengyal.com",
@@ -4286,6 +4290,7 @@ var rules = [
             "rushbee.com",
             "rusvpn.com",
             "ruten.com.tw",
+            "rutracker.net",
             "rutube.ru",
             "ruyiseek.com",
             "rxhj.net",
