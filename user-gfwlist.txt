@@ -1,0 +1,2 @@
+server=/.sakura-internet.me/127.0.0.1#7913
+ipset=/.sakura-internet.me/gfwlist
