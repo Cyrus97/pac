@@ -1,7 +1,7 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * Generated: 2022-03-13 01:16:24
- * GFWList Last-Modified: 2022-03-12 03:16:06
+ * Generated: 2022-03-16 11:34:51
+ * GFWList Last-Modified: 2022-03-13 04:32:43
  * GFWList From: online[https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt]
  */
 
@@ -10,7 +10,8 @@ var rules = [
     [
         [],
         [
-            "renzhe.cloud"
+            "renzhe.cloud",
+            "sakura-internet.me"
         ]
     ],
     [
@@ -728,6 +729,7 @@ var rules = [
             "breakwall.net",
             "briefdream.com",
             "briian.com",
+            "brill.com",
             "brizzly.com",
             "brkmd.com",
             "broadbook.com",
