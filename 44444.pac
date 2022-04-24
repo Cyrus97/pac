@@ -1,7 +1,7 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * Generated: 2022-04-17 01:46:04
- * GFWList Last-Modified: 2022-03-26 21:08:52
+ * Generated: 2022-04-24 01:44:28
+ * GFWList Last-Modified: 2022-04-21 15:44:52
  * GFWList From: online[https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt]
  */
 
@@ -3791,6 +3791,7 @@ var rules = [
             "openervpn.in",
             "openid.net",
             "openleaks.org",
+            "opensea.io",
             "opensource.google",
             "opentech.fund",
             "openvpn.net",
