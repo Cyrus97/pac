@@ -1,7 +1,7 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * Generated: 2022-05-22 01:49:28
- * GFWList Last-Modified: 2022-05-21 17:51:40
+ * Generated: 2022-05-29 02:09:29
+ * GFWList Last-Modified: 2022-05-28 04:50:06
  * GFWList From: local[/home/runner/work/pac/pac/gfwlist/gfwlist.txt]
  */
 
@@ -3775,6 +3775,7 @@ var rules = [
             "onedumb.com",
             "onejav.com",
             "onion.city",
+            "onion.ly",
             "onlinecha.com",
             "onlineyoutube.com",
             "onlygayvideo.com",
@@ -5538,6 +5539,7 @@ var rules = [
             "waymo.com",
             "wda.gov.tw",
             "wdf5.com",
+            "wealth.com.tw",
             "wearehairy.com",
             "wearn.com",
             "weather.com.hk",
@@ -5665,6 +5667,7 @@ var rules = [
             "workatruna.com",
             "workerdemo.org.hk",
             "workerempowerment.org",
+            "workers.dev",
             "workersthebig.net",
             "workflow.is",
             "worldcat.org",
@@ -5740,6 +5743,7 @@ var rules = [
             "xinbao.de",
             "xing.com",
             "xinhuanet.org",
+            "xinjiangpolicefiles.org",
             "xinmiao.com.hk",
             "xinsheng.net",
             "xinshijue.com",
