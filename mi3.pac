@@ -1,7 +1,7 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * Generated: 2022-09-25 02:34:44
- * GFWList Last-Modified: 2022-09-11 16:01:04
+ * Generated: 2022-10-02 02:41:07
+ * GFWList Last-Modified: 2022-09-26 01:40:14
  * GFWList From: online[https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt]
  */
 
@@ -2740,6 +2740,7 @@ var rules = [
             "inoreader.com",
             "inote.tw",
             "insecam.org",
+            "inside.com.tw",
             "insidevoa.com",
             "instagram.com",
             "instanthq.com",
@@ -2865,6 +2866,7 @@ var rules = [
             "jgoodies.com",
             "jiangweiping.com",
             "jiaoyou8.com",
+            "jichangtj.com",
             "jiehua.cz",
             "jiepang.com",
             "jieshibaobao.com",
@@ -3734,6 +3736,7 @@ var rules = [
             "nzchinese.com",
             "nzchinese.net.nz",
             "oanda.com",
+            "oann.com",
             "oauth.net",
             "observechina.net",
             "obutu.com",
@@ -3929,12 +3932,11 @@ var rules = [
             "peoplenews.tw",
             "peopo.org",
             "percy.in",
+            "perfect-privacy.com",
             "perfectgirls.net",
-            "perfectvpn.net",
             "periscope.tv",
             "persecutionblog.com",
             "persiankitty.com",
-            "pfd.org.hk",
             "phapluan.org",
             "phayul.com",
             "philborges.com",
@@ -5395,6 +5397,7 @@ var rules = [
             "venetianmacao.com",
             "ventureswell.com",
             "veoh.com",
+            "vercel.app",
             "verizon.net",
             "vermonttibet.org",
             "versavpn.com",
